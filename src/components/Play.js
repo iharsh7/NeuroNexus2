@@ -115,6 +115,7 @@ const Play = () => {
         window.location.reload();
     }}>Try Again</button>
     <button className='tryagain btn2' onClick={()=>{
+        box = ["","","","","","","","",""];
         navigate('/');
     }}>Go Back</button>
         </div>
